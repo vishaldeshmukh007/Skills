@@ -1,7 +1,14 @@
 package com.test;
-
+/**
+ * This program prints a series of numbers using multiple threads.
+ * Numbers are printed by threads sequentially in round-robin format.
+ * 
+*/
 public class MainClass {
 
+	/* 
+		Main method which creates printer objects and thread objects.
+	*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello world");
