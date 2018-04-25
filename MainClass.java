@@ -1,4 +1,4 @@
-package com.test;
+
 /**
  * This program prints a series of numbers using multiple threads.
  * Numbers are printed by threads sequentially in round-robin format.
@@ -64,7 +64,7 @@ class ThreadObject implements Runnable{
 	int iThreadNUmber;
 	objectPrinter objectPrinter;
 
-	public ThreadObject(int iThreadNUmber, com.test.objectPrinter objectPrinter) {
+	public ThreadObject(int iThreadNUmber, objectPrinter objectPrinter) {
 		super();
 		this.iThreadNUmber = iThreadNUmber;
 		this.objectPrinter = objectPrinter;
