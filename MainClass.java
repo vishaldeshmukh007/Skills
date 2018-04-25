@@ -10,7 +10,6 @@ public class MainClass {
 		Main method which creates printer objects and thread objects.
 	*/
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("Hello world");
 		int iMaxNumber  = 100;
 		int totalNumberOFThreads =4;
